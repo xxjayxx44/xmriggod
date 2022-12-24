@@ -22,7 +22,7 @@ Example below demonstrate all primary ideas of flexible profiles configuration:
     "cpu": {
         "enabled": true,
         "huge-pages": true,
-        "hw-aes": null,
+        "hw-aes": true,
         "priority": null,
         "asm": true,
         "rx/wow": [-1, -1, -1, -1],
@@ -35,7 +35,7 @@ Example below demonstrate all primary ideas of flexible profiles configuration:
             [2, 2]
         ],
         "cn-pico": {
-            "intensity": 2,
+            "intensity": 1,
             "threads": 8,
             "affinity": -1
         },
